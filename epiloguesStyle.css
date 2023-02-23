@@ -1,0 +1,415 @@
+.epilogues { background: #5a5a5a }
+
+.epilogues .navList {
+  width: 950px;
+  height: 17px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  
+  font-size: 10px;
+  line-height: 16px;
+  font-family: Arial,Helvetica,sans-serif;
+  font-weight: 700;
+  color: white;
+  margin: auto;
+}
+
+.epilogues .sep {
+  margin: 0 .3em; 
+}
+
+.epilogues .chaptitle {
+  text-align: center;
+  font-family: FontStuck Extended, 'Homestuck-Regular', monospace;
+  font-weight: bold;
+  font-size: 56px;
+}
+
+.epilogues .navList a:nth-child(n+0):nth-child(-n+1) { color: #fff }
+.epilogues .navList a:nth-child(n+2):nth-child(-n+4) { color: #29ff4a; }
+.epilogues .navList a:nth-child(n+5):nth-child(-n+9) { color: #39d5f6; }
+.epilogues .navList a:nth-child(n+10):nth-child(-n+13) { color: #f7f72a; }
+.epilogues .navList a:nth-child(n+13) { color: #ffb529; }
+
+.epilogues .candyCorn { 
+  content: url(assets://images/candycorn.gif);
+  margin: 0 9px; 
+}
+
+.epilogues .pageFrame {
+  background: #c6c6c6;
+  width: 950px;
+  padding-top: 7px;
+  padding-bottom: 23px;
+  margin: 0 auto;
+  flex: 0 1 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.epilogues .pageContent {
+  background: #fff;
+  max-width: 950px;
+  width: 650px;
+  display: flex;
+  flex: 0 1 auto;
+  align-items: center;
+  flex-flow: column;
+  padding-top: 30px;
+}
+
+.epilogues .footer {
+  height: 110px;
+  box-sizing: border-box;
+  padding-left: 12px;
+  padding-right: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+/* EPILOGUES TITLE CSS  */
+
+.epilogues .titlePage {
+  padding: 0
+}
+
+.epilogues .titlePage .story-text {
+  padding: 0;
+  font-size: 14px;
+}
+
+.epilogues .titlePage .ao3-wrapper .story-text {
+  padding: 0 30px 30px
+}
+
+.epilogues .titlePage h3 {
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.15;
+  padding-top: 5px;
+}
+
+.epilogues .titlePage h2 {
+  text-align: center;
+  font-size: 39px;
+  line-height: 1.15;
+  padding-top: 30px;
+}
+
+.epilogues .titlePage .g-3--md {
+  float: left;
+  margin-right: 2.1834061135%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  width: 23.3624454148%;
+}
+
+.epilogues .titlePage .g-9--md {
+  float: left;
+  margin-right: 0;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  width: 74.4541484716%;
+}
+
+.epilogues .titlePage .brdr-undrln-black {
+  border-bottom: 2px solid #000000;
+}
+
+.epilogues .titlePage .type-bs {
+  font-size: 12px;
+}
+
+.epilogues .titlePage .mar-t-md {
+  margin-top: 15px;
+}
+
+.epilogues .titlePage .flex {
+  display: flex;
+}
+
+.epilogues .titlePage .g-6--md {
+  float: left;
+  margin-right: 2.1834061135%;
+  width: 48.9082969432%;
+  font-weight: 700 !important;
+}
+
+.epilogues .titlePage .g-6--md:last-child {
+  margin-right: 0;
+}
+
+.epilogues .titlePage .pad-l-md--md {
+  padding-left: 15px;
+  margin-top: 5px;
+}
+
+.epilogues .titlePage .mar-t-lg {
+  margin-top: 30px;
+}
+
+.epilogues .titlePage .mar-l-md {
+  margin-left: 15px;
+}
+
+.epilogues .titlePage .flex:first-child .mar-l-md {
+  margin-left: 0;
+}
+
+.epilogues .titlePage .pad-l-md {
+  padding-left: 15px;
+}
+
+/* EPILOGUES CSS  */
+
+.epilogues h2:last-of-type {
+  padding-bottom: 20px;
+}
+
+.epilogues .story-text {
+  font-family: adobe-garamond-pro, serif;
+  font-weight: normal; 
+  line-height: 1.35;
+  font-size: 16px;
+  padding: 0 30px 15px;
+}
+
+.epilogues .arrow {
+  font-size: 24px;
+  line-height: 1.15;
+  padding: 30px 30px 0;
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+.epilogues .bottomLinks {
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+  margin-top: 30px;
+}
+
+.epilogues .meatcandy {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 80px;
+  text-align: center;
+  font-size: 39px;
+  line-height: 26px;
+  font-family: FontStuck Extended, 'Homestuck-Regular', monospace;
+  font-weight: bold;
+}
+
+.epilogues .titleimg {
+  height: 60px;
+  margin-bottom: -10px;
+  margin-right: 5px;
+}
+
+.epilogues h1.type-hsep-ao3-header,
+.epilogues h2.type-hsep-ao3-header,
+.epilogues h3.type-hsep-ao3-header,
+.epilogues h4.type-ao3-hsep-header {
+	font-family: adobe-garamond-pro, serif;
+	font-weight: bold;
+}
+
+.epilogues h1.type-hsep-header,
+.epilogues h2.type-hsep-header,
+.epilogues h3.type-hsep-header,
+.epilogues h4.type-hsep-header {
+	font-family: FontStuck Extended, 'Homestuck-Regular', monospace;
+	font-weight: normal;
+}
+
+.epilogues .hsep_bullet {
+	position: relative;
+	top: 10px;
+	left: -6px;
+	margin-right: 3px;
+	vertical-align: text-bottom;
+}
+
+.epilogues .ao3-header {
+	position: relative;
+	height: 30px;
+	background: #900 url("/assets/epilogues/red-ao3-639c23787c95993ec52e91921778ba44c9086804be33229a40b5155e1dc91747.png");
+	padding: 0 0;
+	width: 100%;
+	box-shadow: inset 0 -6px 10px rgba(0, 0, 0, 0.35), 1px 1px 3px -1px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.85);
+}
+
+.epilogues .ao3-wrapper {
+	box-shadow: 1px 1px 5px #aaa;
+  margin: 30px 15px;
+  padding: 15px 0;
+}
+
+.epilogues .ao3-label {
+	font-family: Verdana, sans-serif;
+	font-weight: bold;
+}
+
+.epilogues .ao3-field {
+	font-family: Verdana, sans-serif;
+	font-weight: normal;
+}
+
+.epilogues  p {
+	text-indent: 25px;
+}
+
+.epilogues  p.no-indent {
+	text-indent: 0px;
+}
+
+.epilogues  p.Command {
+	text-indent: 0px;
+	margin: 15px 0px 15px 25px;
+	font-family: Verdana, sans-serif;
+}
+
+.epilogues span.opener {
+	float: left;
+	font-family: FontStuck Extended, 'Homestuck-Regular', monospace;
+	line-height: 0.825;
+  font-size: 51px;
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.epilogues div.chat {
+	margin: 15px 0px 15px 25px;
+	font-family: "courier-std", courier, monospace;
+}
+
+.epilogues div.chat p {
+	text-indent: 0px;
+	font-weight: bold;
+}
+
+.epilogues .aranea {
+	color: #005682;
+}
+
+.epilogues .aradia {
+	color: #a10000;
+}
+
+.epilogues .caliborn {
+	color: #2ed73a;
+}
+
+.epilogues .calliope {
+	color: #a1a3a6;
+}
+
+.epilogues .calliope-dead {
+	color: #ff0000;
+}
+
+.epilogues .calliope-dead-story {
+	font-family: adobe-garamond-pro, serif;
+	font-weight: normal;
+	color: #000000;
+}
+
+.epilogues .dave {
+	color: #e00707;
+}
+
+.epilogues .davepetasprite {
+	color: #416600;
+}
+
+.epilogues .davepetasprite-dialogue {
+	color: #f2a400;
+}
+
+.epilogues .dirk {
+	color: #f2a400;
+}
+
+.epilogues .eridan {
+	color: #7e0048;
+}
+
+.epilogues .feferi {
+	color: #77003c;
+}
+
+.epilogues .gamzee {
+	color: #2b0057;
+}
+
+.epilogues .harry {
+	color: #0671cd;
+}
+
+.epilogues .jade {
+	color: #4ac925;
+}
+
+.epilogues .jade-brainwashed {
+	color: #000000;
+}
+
+.epilogues .jake {
+	color: #1f9400;
+}
+
+.epilogues .jane {
+	color: #0097d7;
+}
+
+.epilogues .john {
+	color: #0715cd;
+}
+
+.epilogues .kanaya {
+	color: #008141;
+}
+
+.epilogues .karkat {
+	color: #7c7e81;
+}
+
+.epilogues .obama {
+	color: #000000;
+}
+
+.epilogues .rose {
+	color: #b536da;
+}
+
+.epilogues .roxy {
+	color: #ff6ff2;
+}
+
+.epilogues .sollux {
+	color: #a1a100;
+}
+
+.epilogues .swifer {
+	color: #008141;
+}
+
+.epilogues .tavros {
+	color: #a15000;
+}
+
+.epilogues .tavros-kid {
+	color: #2b0057;
+}
+
+.epilogues .terezi {
+	color: #008282;
+}
+
+.epilogues .vriska {
+	color: #005682;
+}
