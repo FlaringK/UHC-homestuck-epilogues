@@ -14,7 +14,7 @@ module.exports = {
   modVersion: 1.0,
 
   summary: "A port of the homestuck epilogues for the UHC. It'll appear at the bottom of the homscreen.",
-  description: "Ten years after their adventure began, the heroes are enjoying a well-earned retirement on Earth C. But John still has one last choice to make. \n \n A port of the homestuck epilogues for the UHC, it'll appear at the bottom of the homscreen.",
+  description: "Ten years after their adventure began, the heroes are enjoying a well-earned retirement on Earth C. But John still has one last choice to make. <br><br> A port of the homestuck epilogues for the UHC, it'll appear at the bottom of the homscreen. <br> <br> This is an unofficial port, the homestuck epilogues are planned to be included within the UHC by default in a later update.",
 
   edit: true,
 
