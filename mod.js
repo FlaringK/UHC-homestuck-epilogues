@@ -11,7 +11,7 @@ const numbers = ["EPILOGUE One", "EPILOGUE Two", "EPILOGUE Three", "EPILOGUE Fou
 module.exports = {
   title: "Homestuck Epilogues", 
   author: "FlaringK (<a href='https://flaringk.github.io/'>Here's my uber cool site</a>)",
-  modVersion: 0.1,
+  modVersion: 1.0,
 
   summary: "A port of the homestuck epilogues for the UHC. It'll appear at the bottom of the homscreen.",
   description: "Ten years after their adventure began, the heroes are enjoying a well-earned retirement on Earth C. But John still has one last choice to make. \n \n A port of the homestuck epilogues for the UHC, it'll appear at the bottom of the homscreen.",
