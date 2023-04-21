@@ -49,20 +49,20 @@ module.exports = {
         if (i == 0) page = `<h2 class=\"chaptitle\">${url}</h2>` + page
 
         // Arrows + footers
-        if (!(i == pages.length - 1)) page = page + arrow(`/EPILOGUES-${url}-${i + 2}`)
+        if (!(i == pages.length - 1)) page = page + arrow(`/epilogues-${url.toLowerCase()}-${i + 2}`)
         else page = page + finalFooter
 
         // Bottom links
         if (i == 0) {
-          if (img) page = page + bottomLinks("/EPILOGUES-PROLOGUE-3")
-          else page = page + bottomLinks("/EPILOGUES")
+          if (img) page = page + bottomLinks("/epilogues-prologue-3")
+          else page = page + bottomLinks("/epilogues")
         }
-        else page = page + bottomLinks(`/EPILOGUES-${url}-${i}`)
+        else page = page + bottomLinks(`/epilogues-${url.toLowerCase()}-${i}`)
 
         epiloguePages[`EPILOGUES-${url}-${i + 1}`] = {
           component: {
             title: () => `${url} ${i + 1} - The Homestuck Epilogues`,
-            next: () => `/EPILOGUES-${url}-${i + 1}`,
+            next: () => `/epilogues-${url}-${i + 1}`,
             template: hsPage(page)
           },
           scss: ""
@@ -90,7 +90,7 @@ module.exports = {
 
       edit(archive) {
         archive.tweaks.modHomeRowItems.push({
-          href: "/EPILOGUES",
+          href: "/epilogues",
           thumbsrc: "assets://images/epilogueIcon.gif",
           title: "The Homestuck Epilogues",
           date: "Apr 2019",
